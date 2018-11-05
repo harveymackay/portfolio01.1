@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+background-image: url("../images/bg3.jpeg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+	
+}
+
+p{
+	color: #66a3ff;
+}
+
+	
+h1{
+	font-size: 40px;
+	margin-bottom:0;
+	/*background-color:#333;*/ /*off-black*/
+	/*text-transform: uppercase;*/
+	letter-spacing: 2px;
+	/*font-family: 'Merriweather', serif;*/
+	border-radius: 15px;
+	/*color: #66a3ff;*/
+	margin-top: 60px;
+}
+
+
+h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	/*background-color:#333;*/ /*off-black*/
+	letter-spacing: 5px;
+	color: #2B9FE7;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#me {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #FF8633;
+	margin-top: 50px;
+}
+
+
+.bio {
+	width: 100%;
+	font-size:18px;
+	line-height: 1.5;
+	background-color: rgba(51,51,51,0.55);
+	font-family: 'Noto Sans KR', sans-serif;
+	border-radius: 10px;
+}
+
+
+
+.container {
+	width: 1050px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.space {
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.footer{
+	color:  #4dffa6;
+	margin-top: 30px;
+
+}
+
+.progress {
+	padding: 2px;
+	margin-bottom: 10px;
+	height: 30px;
+	
+}
+
+
+.d-flex{
+	margin: 20px;
+	border: solid black;
+	color: blue;
+	background-color: white;
+}
+
+.bio {
+	margin-top: 20px;
+}
+
+.card {
+	padding: 1px;
+	margin-left:8px;
+	margin-bottom: 50px;	
+}
+
+
+.con{
+	margin-bottom: 20px;
+}
+
+
+#skill {
+	height: 150px;
+	width: 180px;
+	border-radius: 50%;
+	border-width: 3px;
+	border-color: #FF8633;
+	margin-top: 50px;
+
+}
+
+.jumbotron {
+	margin:50px;
+}
+
+.card { 
+	width: 20rem;
+}
+
+
+
+
+
+
+/*MEDIA QUERIES-----------------------------*/
+
+/*desktop view*/
+
+@media only screen and (min-width: 960px) and (max-width: 4000px) {
+	.card, .galbox > img {
+	width:40%;
+	height: 50vh;
+	}
+}
+
+/*tablet view*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.card, .galbox > img {
+	width:40%;
+	height: 80vh;
+	margin-bottom: 20px;
+	}
+
+}
+/*mobile view*/
+
+@media only screen and (max-width: 400px) {
+	.card, .galbox > img {
+	margin-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
